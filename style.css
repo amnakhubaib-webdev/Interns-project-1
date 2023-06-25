@@ -1,0 +1,72 @@
+body,html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+body {
+    background-color: #589ED9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    align-content: center;
+}
+#container {
+    width: 220px;
+    margin: 75px auto;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#header .logo {
+    font-size: 50px;
+    padding: 0;
+    margin: 0 auto;
+}
+#header h1 {
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+#loginform input  {
+    width: 100%;
+    margin:0px;
+    font-size: 13px;
+    color: #2c3e50;
+    border: none;
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#loginform .inputfield1 {
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+border-bottom: 0;
+text-indent: 20px;
+margin-top: 15px;
+}
+
+#loginform .inputfield2 {
+border-top: 1px solid #ccc;
+text-indent: 20px;
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;
+}
+
+#loginform input[type=submit] {
+    border-radius: 6px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 0;
+    background: #2186d4;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+}
+#footer p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
